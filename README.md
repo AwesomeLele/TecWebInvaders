@@ -7,7 +7,7 @@ Emanuele Illiano e Salvatore Nanni
 
 
 
-Per eseguire il codice, c'è bisogno di node js e xampp installati sulla macchina.
+Per eseguire il codice, bisogna avere node js e xampp installati sulla macchina.
 
 Step per esecuzione: 
 
