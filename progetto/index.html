@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="p5.min.js"></script>
+    <script src="addons/p5.dom.min.js"></script>
+    <script src="addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
+  </head>
+  <body scroll="no" style="overflow:  hidden" bgcolor="#8c8c8c">
+
+  <div align="center" class="panel panel-default">
+    <div class="panel-heading">
+
+      <img src="images/title.png">
+      <br>
+      <br>
+      <br>
+      <a href="inizio.html" class="button2">Gioca</a>
+
+
+    </div>
+  </div>
+
+  </body>
+</html>
+<style>
+
+  .panel-default{
+
+    padding: 38px;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    height: 100%;
+
+  }
+  .panel-default .panel-heading{
+    background: rgba(255, 255, 255, 0.0);
+  }
+  .panel-default .panel-body{
+    background: rgba(255, 255, 255, 0.95);
+  }
+  body {
+    background-image: url("Images/wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+  }
+  .wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -86px;
+    margin-left: -89px;
+    text-align: center;
+  }
+
+  a {
+    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    max-height: 200px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 20px 30px;
+  }
+
+
+
+  a.button2 {
+    color: rgb(255, 145, 0);
+    box-shadow: rgb(255, 145, 0) 0 0px 0px 2px inset;
+  }
+
+  a.button2:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgb(255, 145, 0) 0 80px 0px 2px inset;
+  }
+
+
+</style>
+
